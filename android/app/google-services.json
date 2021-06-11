@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "735417037401",
+    "project_id": "thesis-app-nestfinder",
+    "storage_bucket": "thesis-app-nestfinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735417037401:android:06d79a828130940e8a7748",
+        "android_client_info": {
+          "package_name": "com.example.thesisapp_nestfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735417037401-7sg3pco2trt9lt8sshugal6ee6sc6c0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thesisapp_nestfinder",
+            "certificate_hash": "e2d366557719b338cf9d3aeeb043c7cb2a9905e9"
+          }
+        },
+        {
+          "client_id": "735417037401-nrn8ra70qlfrf9i7btmq92s24c1v6ocr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpw6wK7sZf924QCGCi8Mb-PT86Wrl_SyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735417037401-nrn8ra70qlfrf9i7btmq92s24c1v6ocr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
