@@ -111,21 +111,21 @@ class _SignInPageState extends State<SignInPage> {
             text: 'Sign in with Google',
             textColor: Colors.black87,
             color: Colors.white,
-            onPressed: () => _signInWithGoogle(context),
+            onPressed: _isLoading ? null : () => _signInWithGoogle(context),
           ),
           SizedBox(height: 8.0), //spacing between widgets
           SocialSignInButton(
             assetName: 'images/facebook-logo.png',
             text: 'Sign in with Facebook',
             textColor: Colors.white,
-            onPressed: () => _signInWithFacebook(context),
+            onPressed: _isLoading ? null : () => _signInWithFacebook(context),
             color: Color(0xFF334D92),
           ),
           SizedBox(height: 8.0), //spacing between widgets
           SignInButton(
             text: 'Sign in with email',
             textColor: Colors.white,
-            onPressed: () => _signInWithEmail(context),
+            onPressed: _isLoading ? null : () => _signInWithEmail(context),
             color: Color(0xFF00796B),
           ),
           SizedBox(height: 8.0), //spacing between widgets
@@ -138,7 +138,7 @@ class _SignInPageState extends State<SignInPage> {
           SignInButton(
             text: 'Go anonymous',
             textColor: Colors.black,
-            onPressed: () => _signInAnonymously(context),
+            onPressed: _isLoading ? null : () => _signInAnonymously(context),
             color: Color(0xFFDCE775),
           ),
         ],
